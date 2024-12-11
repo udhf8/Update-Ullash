@@ -3,7 +3,7 @@ const moment = require('moment-timezone');
 
 module.exports = {
 	config: {
-		name: "info",
+		name: "info2",
 		version: "1.0",
 		author: "NTKhang",
 		countDown: 20,
@@ -15,17 +15,17 @@ module.exports = {
 		envConfig: {}
 	},
 	onStart: async function ({ message }) {
-		const authorName = " ⩸ᗷᗩᎩᒍᏆᗞ⩸ ";
-		const ownAge = "『 ⩸__17__⩸ 』";
-		const messenger = "https://m.me/100065506668822";
-		const authorFB = "https://www.facebook.com/profile.php?id=BAYJID.500k";
-		const authorNumber = "_01638007072";
-		const Status = "⩸__🆂🅸🅽🅶🅻🅴__⩸";
+		const authorName = " ᑘᒪᒪᗩSᕼ ッ ";
+		const ownAge = "『 21 』";
+		const messenger = "https://m.me/61567301076941";
+		const authorFB = "https://www.facebook.com/ayat.chowdhury.936741";
+		const authorNumber = "এইটা পার্সোনাল";
+		const Status = "complicated";
 		const urls = [
-"https://i.imgur.com/I8JSUWI.jpeg",
-"https://i.imgur.com/I8JSUWI.jpeg",
-"https://i.imgur.com/I8JSUWI.jpeg",
-"https://i.imgur.com/I8JSUWI.jpeg"
+"https://i.imgur.com/zLH9Akq.jpeg",
+"https://i.imgur.com/yFGI6sF.jpeg",
+"https://i.imgur.com/YIXBEo7.jpeg",
+"https://i.imgur.com/Ny5fQOe.jpeg"
 ];
 		const link = urls[Math.floor(Math.random() * urls.length)];
 		const now = moment().tz('Asia/Jakarta');
@@ -51,11 +51,11 @@ module.exports = {
 \⏰彡𝑁𝑜𝑤 𝑇𝑖𝑚𝑒 : ${time}
 \🔰彡𝐴𝑛𝑦 𝐻𝑒𝑙𝑝 𝐶𝑜𝑛𝑡𝑎𝑐𝑡 :⩸__${messenger}__⩸
 \📛彡𝐵𝑜𝑡 𝐼𝑠 𝑅𝑢𝑛𝑛𝑖𝑛𝑔 𝐹𝑜𝑟 : ${uptimeString}
-    𝑻𝒈: https://t.me/MOHAMMADBAYJID
-    𝑰𝒏𝒔𝒕𝒂: https://www.instagram.com/mr_bayjid120?
-    𝑪𝒂𝒑𝑪𝒖𝒕: copy_bayjid
-    𝑻𝒊𝒌𝑻𝒐𝒌: https://www.tiktok.com/@copy_bayjid?
-    𝒀𝒐𝒖𝑻𝒖𝒃𝒆: https://youtube.com/@Bayjid Editz?
+    𝑻𝒈: https://t.me/কোনটার লিংক দিমু , ৯ টা আইড়ি
+    𝑰𝒏𝒔𝒕𝒂: দিমু না 🥱 
+    𝑪𝒂𝒑𝑪𝒖𝒕: কোনো আইড়ি নাই , এমনি এড়িট করার জন্য ব্যবহার করি।
+    𝑻𝒊𝒌𝑻𝒐𝒌: আমি প্রতিবন্ধী না 🙂 
+    𝒀𝒐𝒖𝑻𝒖𝒃𝒆: নিজের কোনো চ্যানেল নাই ☺️, এমনিতেই কারো YouTube premium লাগলে ইনবক্স করিও?
 \===============`,
 			attachment: await global.utils.getStreamFromURL(link)
 		});
