@@ -9,7 +9,7 @@ enjoy kanda cmd and shake your banana 7 times a day haha
 
 module.exports = {
 	config: {
-		name: "kda",
+		name: "hot video",
 		aliases: ["kanda2.0"],
 		version: "2.0",
 		author: "kshitiz",
@@ -27,7 +27,7 @@ module.exports = {
 		const senderID = event.senderID;
 
 		const loadingMessage = await message.reply({
-			body: "kanda aaudaixa... ekxin parkhi muji! 🤡",
+			body: " লুচ্চামি বাদ দিয়ে ভালো হওয়ার চেষ্টা কর...\n\n অপেক্ষা কর ভিডিও সেন্ড করছি 🙂 🤡",
 		});
 
 		const link = [
