@@ -12,7 +12,7 @@ const doNotDelete = "[ 🐐🇧🇩 | BaYjid Bot V2 ]";
 
 module.exports = {
 	config: {
-		name: "help",
+		name: "help0",
 		version: "1.21",
 		author: "NTKhang",
 		countDown: 5,
