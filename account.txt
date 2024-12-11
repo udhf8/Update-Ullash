@@ -1,1 +1,65 @@
-past your apstate
+[
+    {
+        "key": "locale",
+        "value": "en_GB",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2024-12-11T15:38:11.675Z",
+        "lastAccessed": "2024-12-11T15:38:11.676Z"
+    },
+    {
+        "key": "sb",
+        "value": "vN1MZ9jL8lml6VpjkCcw8zTF",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2024-12-11T15:38:11.676Z",
+        "lastAccessed": "2024-12-11T15:38:11.676Z"
+    },
+    {
+        "key": "dpr",
+        "value": "1.9240320920944214",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2024-12-11T15:38:11.676Z",
+        "lastAccessed": "2024-12-11T15:38:11.676Z"
+    },
+    {
+        "key": "c_user",
+        "value": "61570340192855",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2024-12-11T15:38:11.676Z",
+        "lastAccessed": "2024-12-11T15:38:11.676Z"
+    },
+    {
+        "key": "xs",
+        "value": "14%3AB4Ex8zimVUwoYg%3A2%3A1733912871%3A-1%3A-1",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2024-12-11T15:38:11.676Z",
+        "lastAccessed": "2024-12-11T15:38:11.676Z"
+    },
+    {
+        "key": "fr",
+        "value": "1988br4jMvhS2lptJ.AWXK8GE_fgDk4weR_bbDfpTWTtQ.BnWWiv..AAA.0.0.BnWWlQ.AWU1HutYiU4",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2024-12-11T15:38:11.676Z",
+        "lastAccessed": "2024-12-11T15:38:11.676Z"
+    },
+    {
+        "key": "wd",
+        "value": "892x1712",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2024-12-11T15:38:11.676Z",
+        "lastAccessed": "2024-12-11T15:38:11.676Z"
+    }
+]
