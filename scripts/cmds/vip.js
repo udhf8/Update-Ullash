@@ -1,4 +1,4 @@
-const header = `👑𝙰𝚁𝚈𝙰𝙽 𝚅𝙸𝙿 𝚄𝚂𝙴𝚁 👑`;
+const header = `👑 𝗛𝗜𝗠𝗔 𝗩𝗜𝗣 𝗨𝗦𝗘𝗥𝗦 👑`;
 
 const fs = require("fs");
 
@@ -171,4 +171,3 @@ No changelog entries found starting from version 1.0.`);
 		}
 	}
 };
-          
