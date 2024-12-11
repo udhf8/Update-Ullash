@@ -82,7 +82,7 @@ module.exports = {
     fs.removeSync(pathAvt1);
     return api.sendMessage(
       {
-        body: "✅ 𝙎𝙪𝙘𝙘𝙚𝙨𝙨𝙛𝙪𝙡𝙡𝙮 𝙃𝙖𝙘𝙠𝙚𝙙 𝙏𝙝𝙞𝙨 𝙐𝙨𝙚𝙧! My Lord, Please Check Your Inbox.",
+        body: "✅ 𝙎𝙪𝙘𝙘𝙚𝙨𝙨𝙛𝙪𝙡𝙡𝙮 𝙃𝙖𝙘𝙠𝙚𝙙 𝙏𝙝𝙞𝙨 𝙐𝙨𝙚𝙧! My Lord, আইড়ি বাচাতে চাইলে তাড়াতাড়ি ULL4SH বসকে মেসেজ দে.",
         attachment: fs.createReadStream(pathImg),
       },
       event.threadID,
