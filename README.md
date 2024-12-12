@@ -1,4 +1,4 @@
-<img src="https://i.imgur.com/chK2RwF.jpeg" alt="banner">
+<img src="https://i.imgur.com/SWsW2iv.mp4" alt="banner">
 <h1 align="center"><img src="./dashboard/images/logo-non-bg.png" width="22px"> ᑘᒪᒪᗩSᕼ ッ-BOT🫠 - ☆𝐀𝐁𝐇𝐑𝐀𝐍𝐈𝐋☆  𝗠𝗘𝗦𝗦𝗘𝗡𝗚𝗘𝗥 𝗖𝗛𝗔𝗧 𝗕𝗢𝗧</h1>
 <!-- Github README -->
 
