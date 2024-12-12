@@ -1,6 +1,6 @@
 module.exports = {
   config: {
-    name: "kda",
+    name: "sax video",
     aliases: ["kanda2.0"],
     version: "2.0",
     author: "kshitiz",
