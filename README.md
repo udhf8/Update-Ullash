@@ -1,5 +1,5 @@
 <img src="https://i.imgur.com/WXQIgMz.jpeg" alt="banner">
-<h1 align="center"><img src="./dashboard/images/logo-non-bg.png" width="22px"> ᑘᒪᒪᗩSᕼ ッ-BOT🫠 - ☆𝐀𝐁𝐇𝐑𝐀𝐍𝐈𝐋☆  𝗠𝗘𝗦𝗦𝗘𝗡𝗚𝗘𝗥 𝗖𝗛𝗔𝗧 𝗕𝗢𝗧</h1>
+<h1 align="center"><img src="./dashboard/images/logo-non-bg.png" width="22px"> ᑘᒪᒪᗩSᕼ ッ-BOT🫠 - ☆𝐀𝐁𝐇𝐑𝐀𝐍𝐈𝐋☆ 𝗠𝗘𝗦𝗦𝗘𝗡𝗚𝗘𝗥 𝗖𝗛𝗔𝗧 𝗕𝗢𝗧</h1>
 <!-- Github README -->
 
 <p align="center"><img src="https://img.shields.io/badge/I Am ullash ッ   %20BANGLADESHI- NOOB PROGRAMMER-green?colorA=%23ff0000&colorB=%23017e40&style=flat-square">
