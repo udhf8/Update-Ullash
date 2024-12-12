@@ -1,23 +1,40 @@
-let axios = require("axios"); 
+const axios = require('axios');
+const a = 'xyz';
+
 module.exports = {
   config: {
-    name: "imgur",
-    aliases: [`imagegur`],
-    version: "1.0",
-    author: "otiney",
-    countDown: 0,
+    name: 'imgur',
+    aliases: ['imgur'],
     role: 0,
-    shortDescription: "upload any images in imgur server..",
-    longDescription: "upload any images in imgur server..",
-    category: "utility",
-    guide: "{pn} reply or add link of image"
+    author: 'Fahim_Noob',
+    countDown: 5,
+    longDescription: 'Upload images to Imgur.',
+    category: 'image',
+    guide: {
+      en: '${pn} reply to an image to upload it to Imgur.'
+    }
   },
+  onStart: async function ({ message, api, event }) {
+    if (!event.messageReply || !event.messageReply.attachments || !event.messageReply.attachments[0]) {
+      return message.reply('Please reply to an image to upload it to Imgur.');
+    }
 
-  onStart: async function ({ api, event }) {
-    let linkanh = event.messageReply.attachments[0].url || args.join(" ");
-    if(!linkanh) return api.sendMessage('Please reply or enter the link 1 image!!!', event.threadID, event.messageID)
-    let res = await axios.get(`https://API-Web.miraiofficials123.repl.co/imgur?link=${encodeURIComponent(linkanh)}&apikey=18102004`);
-    let img = res.data.data;
-  return api.sendMessage(`${img}`, event.threadID, event.messageID)
+    const imgUrl = event.messageReply.attachments[0].url;
+    const imgurUrl = `https://smfahim.${a}/imgur?url=${encodeURIComponent(imgUrl)}`;
+
+    try {
+      const response = await axios.get(imgurUrl);
+      const data = response.data;
+
+      if (data.uploaded && data.uploaded.status === 'success') {
+        message.reply(`${data.uploaded.image}`);
+      } else {
+        message.reply('❌| Image upload failed.');
+      }
+
+    } catch (error) {
+      message.reply('❌| There was an error uploading your image.');
+      console.error(error);
+    }
   }
 };
