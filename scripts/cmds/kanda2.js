@@ -9,7 +9,7 @@ enjoy kanda cmd and shake your banana 7 times a day haha
 
 module.exports = {
 	config: {
-		name: "hot video",
+		name: "hot1",
 		aliases: ["kanda2.0"],
 		version: "2.0",
 		author: "kshitiz",
