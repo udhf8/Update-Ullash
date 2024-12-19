@@ -40,7 +40,7 @@ module.exports = {
 
 let msg = BAYJID[Math.floor(Math.random()*BAYJID.length)]
 message.send({
-  body: 'video made by CYBER BOT TEAM',attachment: await global.utils.getStreamFromURL(msg)
+  body: 'video made by —͟͟͞͞𝐂𝐘𝐁𝐄𝐑 ☢️_𖣘 -𝐁𝐎𝐓 ⚠️ 𝑻𝑬𝑨𝑴_ ☢️',attachment: await global.utils.getStreamFromURL(msg)
 })
 }
      }
