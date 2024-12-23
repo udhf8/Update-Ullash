@@ -1,5 +1,5 @@
 module.exports.config = {
-  name: "bot",
+  name: "caption",
   version: "1.0.0",
   hasPermssion: 0,
   credits: (() => {
@@ -10,7 +10,7 @@ module.exports.config = {
     return credit;
   })(),
   description: "Sends random quotes with an image",
-  commandCategory: "Fun",
+  commandCategory: "𝗜𝗦𝗟𝗔𝗠",
   usages: "bot",
   cooldowns: 11,
   dependencies: {
