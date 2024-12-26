@@ -18,14 +18,14 @@ module.exports = {
 		const authorName = " ᑘᒪᒪᗩSᕼ ッ ";
 		const ownAge = "『 21 』";
 		const messenger = "https://m.me/61567301076941";
-		const authorFB = "https://www.facebook.com/ayat.chowdhury.936741";
+		const authorFB = "https://www.facebook.com/profile.php?id=100000654976375";
 		const authorNumber = "এইটা পার্সোনাল";
 		const Status = "complicated";
 		const urls = [
 "https://i.imgur.com/zLH9Akq.jpeg",
 "https://i.imgur.com/yFGI6sF.jpeg",
 "https://i.imgur.com/YIXBEo7.jpeg",
-"https://i.imgur.com/Ny5fQOe.jpeg"
+"https://i.imgur.com/1bKCteB.jpeg"
 ];
 		const link = urls[Math.floor(Math.random() * urls.length)];
 		const now = moment().tz('Asia/Jakarta');
