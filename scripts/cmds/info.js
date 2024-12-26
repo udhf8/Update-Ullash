@@ -5,6 +5,7 @@ const path = require('path');
 module.exports = {
 	config: {
 		name: "info",
+		aliases: ["admin"],
 		author: "ArYan 🤡",
 		role: 0,
 		shortDescription: "info and my owner the cmd",
@@ -43,7 +44,7 @@ module.exports = {
 │𝐑𝐞𝐥𝐚𝐭𝐢𝐨𝐧𝐬𝐡𝐢𝐩 :${ArYanInfo.Relationship}
 │𝐀𝐠𝐞 :${ArYanInfo.age}
 │𝐑𝐞𝐥𝐢𝐠𝐢𝐨𝐧: ${ArYanInfo.religion}
-│𝐓𝐢𝐤𝐭𝐨𝐤 : ${ArYanInfo.instagram}
+│𝐓𝐢𝐤𝐭𝐨𝐤 : ${ArYanInfo.Tiktok}
 │𝐅𝐚𝐜𝐞𝐛𝐨𝐨𝐤: ${ArYanInfo.facebook}\n╰────────────❁`;
 
 			await api.sendMessage({
