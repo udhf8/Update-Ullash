@@ -3,7 +3,7 @@ const UPoLPrefix = [
   '-ai',
   'ai',
   '/ai',
-  'bot',
+  '',
   'ask'
 ]; 
 
