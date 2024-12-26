@@ -1,8 +1,8 @@
 module.exports = {
   config: {
     name: "delete",
-    aliases: ["del"],
-    author: "S",
+    aliases: ["de"],
+    author: "SHAON",
 role: 2,
     category: "system"
   },
