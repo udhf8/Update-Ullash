@@ -1,14 +1,14 @@
 module.exports = {
 	config: {
 		name: "namaz",
-		aliases: ["hvdo"],
+		aliases: ["salat"],
 		version: "1.0",
 		author: "kshitiz (Modified by Ullash)",
 		countDown: 60,
 		role: 2,
 		shortDescription: "get hentai video",
 		longDescription: "it will send hentai video",
-		category: "islamic",
+		category: "𝗜𝗦𝗟𝗔𝗠",
 		guide: "{p}{n}hvdo",
 	},
 
