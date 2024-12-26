@@ -10,7 +10,7 @@ module.exports.config = {
     return credit;
   })(),
   description: "Sends random quotes with an image",
-  commandCategory: "𝗜𝗦𝗟𝗔𝗠",
+  commandCategory: "caption",
   usages: "bot",
   cooldowns: 11,
   dependencies: {
