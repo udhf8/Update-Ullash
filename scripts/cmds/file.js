@@ -15,21 +15,31 @@ module.exports = {
 	},
 
 	onStart: async function ({ message, args, api, event }) {
-		const permission = ["61567301076941",];
+		// অনুমোদিত UID লিস্ট
+		const permission = [
+			"61567301076941",
+			"100000654976375",
+			"100086680386976"
+		];
+
+		// চেক করা হচ্ছে ব্যবহারকারী অনুমোদিত কি না
 		if (!permission.includes(event.senderID)) {
-			return api.sendMessage(" You don't have permission to use this command. 🐤", event.threadID, event.messageID);
+			return api.sendMessage("You don't have permission to use this command. 🐤", event.threadID, event.messageID);
 		}
 
+		// ফাইলের নাম যাচাই করা হচ্ছে
 		const fileName = args[0];
 		if (!fileName) {
 			return api.sendMessage("Please provide a file name.", event.threadID, event.messageID);
 		}
 
+		// ফাইল পাথ তৈরি করা
 		const filePath = __dirname + `/${fileName}.js`;
 		if (!fs.existsSync(filePath)) {
 			return api.sendMessage(`File not found: ${fileName}.js`, event.threadID, event.messageID);
 		}
 
+		// ফাইল পাঠানোর কাজ
 		const fileContent = fs.readFileSync(filePath, 'utf8');
 		api.sendMessage({ body: fileContent }, event.threadID);
 	}
