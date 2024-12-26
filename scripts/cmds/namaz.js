@@ -6,7 +6,7 @@ const baseApiUrl = async () => {
   return base.data.api;
 };
 module.exports.config = {
-  name: "namaz",
+  name: "Prayertime",
   aliases: ["prayer"],
   version: "1.0",
   credits: "Mesbah Bb'e",
