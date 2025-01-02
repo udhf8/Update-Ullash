@@ -10,7 +10,7 @@ module.exports.config = {
     return credit;
   })(),
   description: "Sends random quotes with an image",
-  commandCategory: "Fun",
+  commandCategory: "imgur",
   usages: "bot",
   cooldowns: 11,
   dependencies: {
